@@ -1,5 +1,7 @@
 html * {
 font-family: 'Cormorant Unicase', serif;
+background-image: url('./src/assets/images/vtec.jpg');
+
 }
 
 .center {
@@ -7,4 +9,13 @@ font-family: 'Cormorant Unicase', serif;
   width: 50%;
   border: 3px solid blue;
   padding: 10px;
+}
+
+header {
+
+}
+
+body {
+
+
 }
