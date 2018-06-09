@@ -17,7 +17,7 @@ header {
 }
 
 body {
-  background: linear-gradient(135deg, lightblue, limegreen 60%, cyan);
+  background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
   background-position: center;
 
 }
