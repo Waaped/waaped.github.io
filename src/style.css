@@ -1,8 +1,6 @@
 html * {
 font-family: 'Cormorant Unicase', serif;
 color: white;
-
-
 }
 
 
@@ -19,6 +17,7 @@ header {
 body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
   background-position: center;
+  height:100%;
 
 }
 
@@ -28,7 +27,16 @@ a {
   text-decoration: none;
   }
 
+.header-left {
+
+  }
+
+.header-right {
+
+  }
+
+
 #r {
-      border-radius: 50%;
+      border-radius: 60%;
       opacity: 0.5;
 }
