@@ -4,10 +4,12 @@ font-family: 'Cormorant Unicase', serif;
 
 }
 
-.center {
+.logo {
   margin: auto;
   width: 50%;
   padding: 20px;
+  opacity: 0.4;
+  border-radius: 50%;
 }
 
 header {
@@ -20,4 +22,14 @@ body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
   background-position: center;
 
+}
+
+/*removes blue color from links, and underline */
+a {
+  color: inherit;
+  text-decoration: none;
+  }
+
+#r {
+    border-radius: 50%;
 }
