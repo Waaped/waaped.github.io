@@ -1,21 +1,19 @@
 html * {
 font-family: 'Cormorant Unicase', serif;
+color: white;
 
 
 }
+
 
 .logo {
   margin: auto;
   width: 50%;
   padding: 20px;
-  opacity: 0.4;
-  border-radius: 50%;
 }
 
 header {
-
-
-
+ background-color: black;
 }
 
 body {
@@ -31,5 +29,6 @@ a {
   }
 
 #r {
-    border-radius: 50%;
+      border-radius: 50%;
+      opacity: 0.5;
 }
