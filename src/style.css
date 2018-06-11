@@ -18,9 +18,8 @@ header {
 
 body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
-  background-position: center;
-  width: auto;
-  height:100%;
+  background-position: ;
+
 /*html has default margins */
   margin:0;
 }
