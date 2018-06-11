@@ -1,6 +1,7 @@
 html * {
 font-family: 'Cormorant Unicase', serif;
 color: white;
+ font-size: 90%;
 }
 
 
@@ -12,12 +13,14 @@ color: white;
 
 header {
  background-color: black;
+
 }
 
 body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
   background-position: center;
-
+  width: auto;
+  height:100%;
 /*html has default margins */
   margin:0;
 }
@@ -42,7 +45,7 @@ a {
 img {
       border-radius: 60%;
       opacity: 0.5;
-      height: 100vh;
-      width:100vh;
+      height: 100%;
+      width:100%;
 
 }
