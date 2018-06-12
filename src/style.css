@@ -4,7 +4,9 @@ color: white;
  font-size: 90%;
 }
 
-
+#sidenav {
+  text-align: right;
+}
 .logo {
   margin: auto;
   width: 50%;
