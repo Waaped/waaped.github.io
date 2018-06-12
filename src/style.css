@@ -19,9 +19,18 @@ header {
 
 }
 
+span.ex1 {
+    min-width: 500px;
+}
+/*@media screen and (min-width: 480px) {
+    body {
+        background-color:white;
+    }
+}
+*/
+
 body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
-  background-position: ;
 
 /*html has default margins */
   margin:0;
