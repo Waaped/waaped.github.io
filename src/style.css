@@ -1,18 +1,12 @@
 html * {
-font-family: 'Cormorant Unicase', serif;
-color: white;
- font-size: 90%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 90%;
 }
 
-#sidenav {
-  text-align: right;
-}
-.logo {
-  margin: auto;
-  width: 50%;
-  height: 60%;
-  padding: 20px;
-}
+
+
+
 
 header {
  background-color: black;
@@ -44,19 +38,16 @@ a {
 
   }
 
-.header-left {
-
-  }
-
-.header-right {
-
-  }
-
-
-img {
-      border-radius: 60%;
+#para1{
+  padding-top:2%;
+  padding-left:4%;
+  margin-left: 23%;
+  background-color:black;
+}
+#raf {
+      border-radius:50%;
+      width:20%;
+      height:30%;
       opacity: 0.5;
-      height: 100%;
-      width:100%;
 
 }
