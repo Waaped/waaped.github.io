@@ -38,11 +38,23 @@ a {
 
   }
 
+#fig
+{ float:none;
+  margin-top: 3%
+ }
+
+@media all and (max-width:500px){
+    #fig, #para1 { float:bottom; width:100%; }
+}
+
 #para1{
-  padding-top:2%;
-  padding-left:4%;
+  opacity: 0.5;
+
+  margin-right: 10.03%;
+  padding-left:2%;
   margin-left: 23%;
   background-color:black;
+
 }
 #raf {
       border-radius:50%;
