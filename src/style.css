@@ -23,6 +23,21 @@ span.ex1 {
 }
 */
 
+.container:after {
+    padding-top: 15%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1 {
+  margin-top: 20%;
+  float: left;
+  width: 25.33%;
+
+}
+
+
 body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
 
@@ -47,7 +62,6 @@ a {
 
 #para1{
   opacity: 0.5;
-
   margin-right: 23%;
   padding-left:2%;
   margin-left: 23%;
