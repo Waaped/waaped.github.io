@@ -37,6 +37,9 @@ span.ex1 {
 
 }
 
+.col-1:hover {
+    background-color: black;
+}
 
 body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
