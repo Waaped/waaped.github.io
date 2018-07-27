@@ -19,6 +19,9 @@ header {
      float: none;
     }
     .container {
+      display:none;
+    }
+    #fig{
       display: none;
     }
 }
