@@ -4,24 +4,25 @@ html * {
   font-size: 90%;
 }
 
-
-
-
-
 header {
  background-color: black;
 
 }
 
-span.ex1 {
+
+/*span.ex1 {
     min-width: 500px;
 }
-/*@media screen and (min-width: 480px) {
-    body {
-        background-color:white;
+*/
+@media only screen and (max-width: 600px) {
+    .col-1 {
+     float: none;
+    }
+    .container {
+      display: none;
     }
 }
-*/
+
 
 .container:after {
     padding-top: 15%;
