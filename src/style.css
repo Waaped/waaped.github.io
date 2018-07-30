@@ -39,7 +39,7 @@ header {
 
 .col-1 {
   margin-top: 20%;
-  margin-left:10%;
+
   float: left;
   width: 23.33%;
 
@@ -51,11 +51,16 @@ header {
 
 body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
+cursor:url(\assets\images\navi_cursor.gif), auto;
+
 
 /*html has default margins */
   margin:0;
 }
 
+
+
+  }
 /*removes blue color from links, and underline */
 a {
 
