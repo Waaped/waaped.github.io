@@ -29,3 +29,7 @@ You can easily fix this by renaming .gif~c200 to gif which will restore the defa
 ##Cursor mozilla
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_User_Interface/Using_URL_values_for_the_cursor_property
+
+##CSS Tricks guide
+
+https://css-tricks.com/using-css-cursors/
