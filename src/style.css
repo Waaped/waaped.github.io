@@ -49,6 +49,9 @@ nav {
   float: left;
   margin-left: 9%;
   width: 23.33%;
+  border-bottom-style: outset;
+  border-color:black;
+
 
 }
 
