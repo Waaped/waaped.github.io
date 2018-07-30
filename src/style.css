@@ -15,14 +15,17 @@ header {
 }
 */
 @media only screen and (max-width: 600px) {
+    /*
     .col-1 {
-     /* float: none;*/
-    }
+      float: none;
+      }
+      */
+
     .container {
-    /*  display:none; */
+      display:none;
     }
     #fig{
-      /* display: none;*/
+      display: none;
     }
 }
 
