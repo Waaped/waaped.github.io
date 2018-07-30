@@ -2,6 +2,7 @@ html * {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 90%;
+  text-decoration: none;
 }
 
 
@@ -92,5 +93,9 @@ a {
       width:20%;
       height:30%;
       opacity: 0.5;
+}
 
+footer {
+  height: 10%;
+  background-color: black;
 }
