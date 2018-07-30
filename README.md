@@ -33,3 +33,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_User_Interface/Using_URL_va
 ##CSS Tricks guide
 
 https://css-tricks.com/using-css-cursors/
+
+## CSS Cursor Conclusion..
+
+It wasn't until i used single quotes that navi.png finally made it appearance.
+png is the safest bet, as svg, gif and other similar formats did not function in Chrome.
+
+It might be a bit antiquated, but custom cursor could come in handy.
+
+The next step would likely to build a animated Cursor using Javascript.
