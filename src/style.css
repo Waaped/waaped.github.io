@@ -58,6 +58,7 @@ body {
   background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
 
 
+
 /*html has default margins */
   margin:0;
 }
@@ -97,5 +98,7 @@ a {
 
 footer {
   height: 10%;
+
   background-color: black;
+
 }
