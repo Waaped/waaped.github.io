@@ -24,4 +24,8 @@ It is likely that the gif~c200 file extension is derived from picture URL, for e
 
 http://creepypasta.wikia.com/wiki/File:IhATr0i_zps1cdba049.gif~c200.gif
 
-You can easily fix this by renaming .gif~c200 to gif which will restore the default file association for the files in all graphics editors.
+You can easily fix this by renaming .gif~c200 to gif which will restore the default file association for the files in all graphics editors.''
+
+##Cursor mozilla
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_User_Interface/Using_URL_values_for_the_cursor_property
