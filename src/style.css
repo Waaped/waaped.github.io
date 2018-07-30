@@ -16,13 +16,13 @@ header {
 */
 @media only screen and (max-width: 600px) {
     .col-1 {
-     float: none;
+     /* float: none;*/
     }
     .container {
-      display:none;
+    /*  display:none; */
     }
     #fig{
-      display: none;
+      /* display: none;*/
     }
 }
 
@@ -36,6 +36,7 @@ header {
 
 .col-1 {
   margin-top: 20%;
+  margin-left:10%;
   float: left;
   width: 25.33%;
 
