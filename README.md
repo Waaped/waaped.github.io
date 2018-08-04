@@ -45,8 +45,16 @@ It might be a bit antiquated, but custom cursor could come in handy.
 
 The next step would likely to build a animated Cursor using Javascript.
 
-## em mystery conclusion sort of..
+## em conclusion sort of..
 
 The em size unit is recommended by the W3C. 1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
 
 globally set in this instance
+
+## Sad boys
+
+via stack overflow
+
+As per this post in developers.google.com, From Chrome 53, the autoplay option is respected by the browser, if the video is muted.
+
+So using autoplay muted attributes in video tag enables the video to be autoplayed in Chrome browsers from version 53.s
