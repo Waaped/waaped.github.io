@@ -58,3 +58,7 @@ via stack overflow
 As per this post in developers.google.com, From Chrome 53, the autoplay option is respected by the browser, if the video is muted.
 
 So using autoplay muted attributes in video tag enables the video to be autoplayed in Chrome browsers from version 53.s
+
+## Safari,IOS,MAC, and everything else testing
+
+https://www.browserstack.com/
