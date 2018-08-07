@@ -4,6 +4,11 @@
   display: block;
   overflow: hidden;
 }
+
+.timeline{
+  margin-top: .5%;
+  margin-left:3%;
+}
   /*Global*/
   .container{
     width:70%;
