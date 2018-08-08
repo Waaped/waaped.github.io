@@ -96,4 +96,6 @@ magenta	hsl(300, 100%, 50%)
 
 the slash things you have been looking for, time for edgy Ace attorney style profile page.
 
-transform: skewX(-32deg);
+transform: skewX(-32deg); skewY also available
+
+https://datafloq.com/read/5-platforms-protect-your-startup-from-ddos-attack/3002
