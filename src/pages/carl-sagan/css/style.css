@@ -88,12 +88,12 @@ body {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 .thick-greyblue-border {display: none}
 .image-pos{display: none}
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .container2{
     display:none;
   }

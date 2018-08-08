@@ -99,3 +99,14 @@ the slash things you have been looking for, time for edgy Ace attorney style pro
 transform: skewX(-32deg); skewY also available
 
 https://datafloq.com/read/5-platforms-protect-your-startup-from-ddos-attack/3002
+
+It's All About Semantics
+This is a hard concept to understand, but the only difference between the DIV element and the SECTION element is semantics. In other words, it's the meaning of the section of code you're dividing up.
+
+Any content that is contained inside a DIV element does not have any inherent meaning. It is best used for things like:
+
+CSS styles and hooks for CSS styles
+Layout containers
+JavaScript hooks
+Divisions for the HTML to make it easier to read
+The DIV element used to be the only element we had for adding hooks to style our documents and create columns and fancy layouts. Because of that, we ended up with HTML that was riddled with DIV elements—what may web designers call “divitis.” There were even WYSIWYG editors that used the DIV element exclusively. I've actually run across HTML that uses the DIV element instead of for paragraphs!
