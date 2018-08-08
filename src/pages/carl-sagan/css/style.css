@@ -27,6 +27,7 @@
 .thick-greyblue-border {
   border-color: #1E798B;
   border-style: solid;
+  margin-bottom: 3%;
 }
 .thick-grey-border {
   border-color: rgba(255,255,255,.5);
@@ -114,7 +115,8 @@ body {
 }
 
 .desktop_section {
-    background-color: blue;
+
+  background-color:rgba(53, 159, 199, 0.1);
 }
 
 
