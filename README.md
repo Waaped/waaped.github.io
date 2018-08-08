@@ -11,3 +11,7 @@ https://www.npmjs.com/package/http-server
 npm install if dependencies, then re-install
 
 run--> http:server // at source file
+
+## Color-picker tool Atom browser
+
+Right-click
