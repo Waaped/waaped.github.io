@@ -9,6 +9,96 @@
   margin: 10px 0px 15px 0px;
 }
 
+.black-text {
+  color: black;
+}
+
+.dank-font-bold {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.dank-font {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 49px;
+}
+
+.thick-greyblue-border {
+  border-color: #1E798B;
+  border-style: solid;
+}
+.thick-grey-border {
+  border-color: rgba(255,255,255,.5);
+  background:  linear-gradient(#111, #1a88ca);
+  border-style: solid;
+  margin-top:3%;
+}
+.margin-p{
+  margin-top:.5%;
+  margin-bottom:.5%;
+}
+
+.dank-font-small {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+}
+/*menu style*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+
+}
+
+@media screen and (max-width: 450px) {
+.thick-greyblue-border {display: none}
+.image-pos{display: none}
+}
+
+@media screen and (min-width: 900px) {
+  .container2{
+    display:none;
+  }
+}
+
 
 .timeline{
   margin-top: .5%;
