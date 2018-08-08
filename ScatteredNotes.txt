@@ -1,0 +1,99 @@
+## gif_c200
+
+Making this navi cursor work, took me to the desolate wasteland known as photobucket, and i have run into this issue.
+
+This allegedly fixes the problem.
+
+The gif~c200 file extension is occasionally used in some web services which work with or store animated GIFs, most notably Chrome web browser.
+
+The gif~c200 file contains picture image in GIF format uploaded to site. It is created when you view a picture stored on these sites using a Google Chrome, or Chromium browsers - right click on picture and select Save picture as... option. The default option will be gif~c200 suffix.
+
+It is likely that the gif~c200 file extension is derived from picture URL, for example:
+
+http://creepypasta.wikia.com/wiki/File:IhATr0i_zps1cdba049.gif~c200.gif
+
+You can easily fix this by renaming .gif~c200 to gif which will restore the default file association for the files in all graphics editors.''
+
+## Cursor mozilla
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_User_Interface/Using_URL_values_for_the_cursor_property
+
+## CSS Tricks guide
+
+https://css-tricks.com/using-css-cursors/
+
+## CSS Cursor Conclusion..
+
+It wasn't until i used single quotes that navi.png finally made it appearance.
+png is the safest bet, as svg, gif and other similar formats did not function in Chrome.
+
+It might be a bit antiquated, but custom cursor could come in handy.
+
+The next step would likely to build a animated Cursor using Javascript.
+
+## em conclusion sort of..
+
+The em size unit is recommended by the W3C. 1em is equal to the current font size. The default text size in browsers is 16px. So, the default size of 1em is 16px.
+
+globally set in this instance
+
+## Sad boys
+
+via stack overflow
+
+As per this post in developers.google.com, From Chrome 53, the autoplay option is respected by the browser, if the video is muted.
+
+So using autoplay muted attributes in video tag enables the video to be autoplayed in Chrome browsers from version 53.s
+
+## Safari,IOS,MAC, and everything else testing
+
+https://www.browserstack.com/
+
+## z-index
+
+Another positioning technique is to center a block element horizontally. One way to do this is to set its margin to a value of auto. margin:auto;
+
+This method works for images, too. Images are inline elements by default, but can be changed to block elements when you set the display property to block.
+
+##Applied Visual Design: Tertiary Colors
+
+Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B) and yellow (R + G). You saw these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.
+
+Tertiary colors are the result of combining a primary color with one of its secondary color neighbors. For example, red (primary) and yellow (secondary) make orange. This adds six more colors to a simple color wheel for a total of twelve.
+
+There are various methods of selecting different colors that result in a harmonious combination in design. One example that can use tertiary colors is called the split-complementary color scheme. This scheme starts with a base color, then pairs it with the two colors that are adjacent to its complement. The three colors provide strong visual contrast in a design, but are more subtle than using two complementary colors.
+
+## Applied Visual Design: Adjust the Color of Various Elements to Complementary Colors
+
+The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.
+
+Header, footer = #09a7a1 , h2 = #09a7a1, button= #FF790E /// FCC
+
+
+# Applied Visual Design: Adjust the Hue of a Color
+
+Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the hsl() property as an alternative way to pick a color by directly stating these characteristics.
+
+Hue is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In hsl(), hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.
+
+Saturation is the amount of gray in a color. A fully saturated color has no gray in it, and a minimally saturated color is almost completely gray. This is given as a percentage with 100% being fully saturated.
+
+Lightness is the amount of white or black in a color. A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.
+
+Color	HSL
+red	hsl(0, 100%, 50%)
+yellow	hsl(60, 100%, 50%)
+green	hsl(120, 100%, 50%)
+cyan	hsl(180, 100%, 50%)
+blue	hsl(240, 100%, 50%)
+magenta	hsl(300, 100%, 50%)
+
+# repeating-linear-gradient()
+
+##  div:hover {transform: scale(1.1);}
+
+-------------------------------------------------
+
+the slash things you have been looking for, time for edgy Ace attorney style profile page.
+
+transform: skewX(-32deg);

@@ -5,6 +5,11 @@
   overflow: hidden;
 }
 
+[type='checkbox'] {
+  margin: 10px 0px 15px 0px;
+}
+
+
 .timeline{
   margin-top: .5%;
   margin-left:3%;
