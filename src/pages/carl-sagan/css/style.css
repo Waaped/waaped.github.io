@@ -92,7 +92,7 @@ body {
 @media screen and (max-width: 550px) {
 .thick-greyblue-border {display: none}
 .image-pos{display: none}
-.desktop_section{
+section{
   display: none;
 }
 }
