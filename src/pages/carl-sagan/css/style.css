@@ -126,13 +126,17 @@ section{
 }
 
 .desktop_contain_left {
-
+  border-color: #1E798B;
+  border-top:13px;
+  border-bottom:13px;
   background-image: url('../assets/images/Aurora.jpg');
+  color:white;
 }
 .desktop_contain_right {
   text-align:right;
-  background-color:rgba(2, 39, 150, 0.91);
-
+  background-image: url('../assets/images/Aurora.jpg');
+  opacity:11%;
+  color:white;
 }
 
 
