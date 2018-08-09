@@ -119,20 +119,19 @@ section{
   width: 20%;
   height: 15%;
   margin-top:3%;
-  margin-left:3%;
+  margin-right:3%;
   margin-bottom: 3%;
-  transform: skewX(-9deg);
+  transform: skewX(9deg);
 
 }
 
 .desktop_contain_left {
 
-  background-color:rgba(53, 159, 199, 0.1);
+  background-image: url('../assets/images/Aurora.jpg');
 }
-
 .desktop_contain_right {
   text-align:right;
-  background-color:rgba(27, 98, 157, 0.3);
+  background-color:rgba(2, 39, 150, 0.91);
 
 }
 
