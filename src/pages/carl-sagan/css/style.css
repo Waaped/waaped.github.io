@@ -104,42 +104,17 @@ section{
 
 }
 
-#t-image{
-  width: 20%;
-  height: 15%;
-  margin-top:3%;
-  margin-left:3%;
-  margin-bottom: 3%;
-  transform: skewX(-9deg);
-
+.bg {
+  background-color: black;
+  display: inline-block;
 }
-
-#t-image-r{
-  width: 20%;
-  height: 15%;
-  margin-right:3%;
-  transform: skewX(9deg);
-  float: right;
+#leftImg{
+  margin-left: 3%;
+  margin-right: 3%;
+  float: left;
+  width: 10%;
+  height:19%;
 }
-
-.desktop_contain_left {
-  border-color: #1E798B;
-  border-top:13px;
-  border-bottom:13px;
-  background-image: url('../assets/images/Aurora.jpg');
-  color:white;
-}
-.desktop_contain_right {
-
-  background-image: url('../assets/images/Aurora.jpg');
-  opacity:11%;
-  color:white;
-}
-
-#override {
-
-}
-
 .timeline{
   margin-top: .5%;
   margin-left:3%;
