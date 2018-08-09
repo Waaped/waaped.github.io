@@ -103,6 +103,8 @@ body {
 }
 
 .bgLeft {
+  height: 10%;
+  width: 100%;
   background-image: url('../assets/images/Aurora.jpg');
   display: inline-block;
   background-position: right;
@@ -113,15 +115,14 @@ body {
   display: inline-block;
   background-position: left;
   color: white;
-  text-align: right;
 }
 #leftImg{
-  margin-left: 3%;
+  margin-left: 2%;
   margin-right: 3%;
-  float: left;
-  width: 20%;
-  height:19%;
+  height: inherit;
+  width: 10%;
   opacity:.50;
+
 }
 
 #rightImg{
@@ -131,6 +132,7 @@ body {
   width: 20%;
   height:19%;
   opacity:.50;
+
 }
 .timeline{
   margin-top: .5%;
