@@ -122,7 +122,7 @@ body {
 
 }
 #leftImg{
-  margin-left: 2%;
+  margin-left: 1%;
   margin-right: 1%;
   height: inherit;
   width: 20%;
@@ -147,6 +147,18 @@ body {
    margin-right:10%;
 }
 
+
+#leftImg4{
+  margin-left: 2%;
+  margin-right: 1%;
+  height: inherit;
+  width: 15%;
+}
+#leftImg4:hover{
+   transform: scale(2.5);
+   margin-left: 19%;
+   margin-right:10%;
+}
 #leftImg2:hover{
    transform: scale(2.5);
    margin-left: 19%;
@@ -166,10 +178,23 @@ body {
   margin-right: 3%;
   float: right;
   width: 7%;
+}
 
-
-
-
+#rightImg3{
+  margin-top: 2%;
+  margin-bottom:2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  float: right;
+  width: 13%;
+}
+#rightImg4{
+  margin-top: 2%;
+  margin-bottom:2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  float: right;
+  width: 7%;
 }
 .timeline{
   margin-top: .5%;
@@ -207,4 +232,10 @@ body {
     padding-top:100px;
     min-height: 80px;
     border-bottom: #1E798B 3px solid;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    height 5%;
   }
