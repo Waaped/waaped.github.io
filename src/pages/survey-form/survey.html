@@ -23,17 +23,45 @@
      <input placeholder="Enter a number" type="number" min="18" max="100000000000" name="number" id="number" required>
     </div>
     <div>
-    <label for="occupation" id="dropdown" required>Occupation: </label>
-    <select>
-      <option value="Student">Student</option>
+    <label for="occupation" required>Occupation: </label>
+    <select id="dropdown">
+      <option value="Student" required>Student</option>
       <option value="Jr Developer">Jr Developer</option>
       <option value="Software Engineer">Software Engineer</option>
       <option value="Project Manager">Project Manager</option>
       <option value="CEO">CEO</option>
     </select>
    </div>
- <button type="submit">Submit</button>
+   <div>
+     <div>
+       <label for="name">*Would you recommend freeCodeCamp?</label>
+     </div>
+     <div>
+       <ul>
+         <li><label>Definitely<input name="radio" value="1"  type="radio"  ></label></li>
+         <li ><label>Maybe<input name="radio" value="2"  type="radio" class="userRatings" ></label></li>
+         <li><label>Not sure<input name="radio" value="3"  type="radio">
+         </label></li>
+       </ul>
+     </div>
+   </div>
 
+   <div>
+     <div>
+       <label for="name">Which Programming Languages do you know?</label>
+     </div>
+     <div>
+       <ul>
+         <li><label>Javascript<input name="checkboxes" value="1"  type="checkbox"  ></label></li>
+          <li><label>Python<input name="checkboxes" value="1"  type="checkbox"  ></label></li>
+           <li><label>Java<input name="checkboxes" value="1"  type="checkbox"  ></label></li>
+            <li><label>Swift<input name="checkboxes" value="1"  type="checkbox"  ></label></li>
+       </ul>
+     </div>
+   </div>
+<textarea rows="4" cols="50" placeholder="What would you like to see from freeCodeCamp in the future?">
+</textarea>
+<button id= "submit"type="submit">Submit</button>
     </form>
   </body>
 </html>

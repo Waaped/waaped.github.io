@@ -1,13 +1,22 @@
 body {
-  background-color: #a9d7d1;
+  background: linear-gradient(245deg,  #a9d7d5, #a9d7d1 30%, cyan);
   text-align:center;
   font-family: Arial;
+  font-weight: lighter;
 }
 
+form {
+  padding: 2%;
+}
 #survey-form {
   background-color: white;
   padding-top: 2%;
   margin-left: 20%;
   margin-right:20%;
-  border: 2px solid rgb(87, 85, 96);
+  border: 2px solid inherit;
+  border-radius: 1%;
+}
+
+ul {
+  list-style: none;
 }
