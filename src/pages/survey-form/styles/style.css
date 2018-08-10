@@ -1,0 +1,13 @@
+body {
+  background-color: #a9d7d1;
+  text-align:center;
+  font-family: Arial;
+}
+
+#survey-form {
+  background-color: white;
+  padding-top: 2%;
+  margin-left: 20%;
+  margin-right:20%;
+  border: 2px solid rgb(87, 85, 96);
+}
