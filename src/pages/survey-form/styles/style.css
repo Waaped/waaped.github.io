@@ -20,3 +20,8 @@ form {
 ul {
   list-style: none;
 }
+
+textarea {
+  width:50%;
+ height: 20%;
+}
