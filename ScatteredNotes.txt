@@ -154,5 +154,14 @@ Remember that folks using assistive technologies rely on organized, semantically
 Responsive Web Design Principles: Make Typography Responsive
 Instead of using em or px to size text, you can use viewport units for responsive typography. Viewport units, like percentages, are relative units, but they are based off different items.
 
+#Website passed some high res tests here
 
 http://www.infobyip.com/testwebsiteresolution.php?url=http%3A%2F%2Frafaelvasquez.life%2Fsrc%2Fpages%2Fproduct-landing%2Findex.html&width=2560&height=1440&in_browser=true
+
+# Webscraping potential implications
+
+https://benbernardblog.com/web-scraping-and-crawling-are-perfectly-legal-right/
+
+#Basically keep your head low, pockets tight, and monetization off
+
+https://blog.hartleybrody.com/web-scraping/

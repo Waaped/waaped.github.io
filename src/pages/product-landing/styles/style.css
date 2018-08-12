@@ -2,7 +2,12 @@
 
 }
 
+.nav-bar {
+  text-align: center;
+}
+
 body {
+    font-family: 'Kalam', cursive;
     background-image: url('https://www.mayfieldvillage.com/includes/uploads/photogalleryphotos/bg-orange.jpg');
     background-size: cover;
     margin:0;
