@@ -14,4 +14,12 @@ body {
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position:center;
+
+}
+
+@media (max-width: 767px) {
+body {
+
+    background-attachment: initial;
+
 }
