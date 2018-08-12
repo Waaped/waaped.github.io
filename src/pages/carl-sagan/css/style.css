@@ -145,6 +145,7 @@ body {
    transform: scale(2.5);
    margin-left: 19%;
    margin-right:10%;
+   transition-duration: 5s;
 }
 
 
@@ -159,17 +160,20 @@ body {
    margin-left: 19%;
    margin-right:10%;
    float: left;
+   transition-duration: 5s;
 }
 #leftImg2:hover{
    transform: scale(2.5);
    margin-left: 19%;
    margin-right:10%;
+   transition-duration: 5s;
 }
 
 #leftImg:hover{
    transform: scale(2.5);
    margin-left: 19%;
    margin-right:10%;
+   transition-duration: 5s;
 }
 
 #rightImg{
