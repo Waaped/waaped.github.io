@@ -16,7 +16,13 @@ nav {
  background-color: black;
 }
 
+.buttons {
+  background-color: black;
+  border: solid black;
+  float:right;
 
+  flex-direction: column;
+}
 /*span.ex1 {
     min-width: 500px;
 }
