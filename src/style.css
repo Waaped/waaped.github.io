@@ -16,6 +16,14 @@ nav {
  background-color: black;
 }
 
+footer {
+  background-image: url('./assets/images/kelly_services.png');
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  height: 10%;
+}
+
 .buttons {
   background-color: black;
   border: solid black;
@@ -108,12 +116,4 @@ a {
       width:20%;
       height:30%;
       opacity: 0.5;
-}
-
-
-
-footer {
-  height: 10%;
-  background-color: black;
-
 }
