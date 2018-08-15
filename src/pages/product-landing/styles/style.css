@@ -35,3 +35,18 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.flex-box {
+  flex-direction: row;
+  margin-right: 2%;
+
+}
+
+.container {
+display: flex;
+}
+
+.product-img {
+  width: 50%;
+  height: 50%;
+}
