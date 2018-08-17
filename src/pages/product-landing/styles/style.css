@@ -14,6 +14,22 @@
   color: white;
 }
 
+footer {
+  background-color: green;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 10%;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+.prod-image {
+  width:10%;
+  height:10%;
+}
+
 #h2-font {
   font-weight: bold;
   font-size: 200%;
