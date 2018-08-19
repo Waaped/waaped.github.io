@@ -6,7 +6,7 @@ function date(){
   let time1 = d.getMinutes();
   let time2 = d.getSeconds();
 
-  if (time1 >10){
+  if (time1 <10){
     time1="0"+time1;
   }
 
