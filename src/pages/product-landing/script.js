@@ -9,7 +9,7 @@ function date(){
   document.body.style.backgroundColor = "brown";
 }
 else{
-  document.body.style.backgroundImage = "url('https://www.mayfieldvillage.com/includes/uploads/photogalleryphotos/bg-orange.jpg')"
+  document.body.style.background = "linear-gradient(#e66465, #9198e5)"
 }
 
 }
