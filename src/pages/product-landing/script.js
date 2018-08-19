@@ -1,5 +1,6 @@
 //refactored
 
+function date(){
   var d = new Date();
   var time = d.getHours();
 
@@ -7,4 +8,5 @@
   {
   alert("Hey Listen");
   document.getElementByTagName("body").style.backgroundColor = "blue";
+}
 }
