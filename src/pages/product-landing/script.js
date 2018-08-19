@@ -9,8 +9,11 @@ function date(){
   if (time1 <10){
     time1="0"+time1;
   }
+  if (time2 <10){
+    time2="0"+time2;
+  }
 
-let combo = time+":"+time1;
+let combo = time+":"+time1+":"+time2;
 
 
 console.log(combo);
