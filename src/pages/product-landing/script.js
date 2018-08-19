@@ -4,12 +4,13 @@ function date(){
   let d = new Date();
   let time = d.getHours();
   let time1 = d.getMinutes();
-  let time2 = d.getSeconcs();
+  let time2 = d.getSeconds();
 
   if (time1 >10){
-    time1=0+"time1";
+    time1="0"+time1;
   }
-  let combo = time+":"+time1;
+
+let combo = time+":"+time1;
 
 
 console.log(combo);
