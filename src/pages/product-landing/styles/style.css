@@ -75,7 +75,7 @@ body, html {
 
 .bg {
     /* The image used */
-    background-image: url('https://www.mayfieldvillage.com/includes/uploads/photogalleryphotos/bg-orange.jpg');
+  /*  background-image: url('https://www.mayfieldvillage.com/includes/uploads/photogalleryphotos/bg-orange.jpg');*/
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */

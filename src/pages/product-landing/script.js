@@ -7,6 +7,6 @@ function date(){
   if (time < 10)
   {
   alert("Hey Listen");
-  document.getElementByTagName("body").style.backgroundColor = "blue";
+  document.body.style.backgroundColor = "brown";
 }
 }
