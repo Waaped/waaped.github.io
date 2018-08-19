@@ -1,5 +1,21 @@
 //refactored
+//Every object has a toString() method that is automatically called when the object is to be represented
+//by a text value
 
+
+/*
+
+Seems like a good option, other frameworks prolly have a solution, but lol 
+
+<script type="text/javascript" src="http://www.datejs.com/build/date.js"></script>
+
+(function ()
+  {
+     document.write(new Date().toString("hh:mm tt"));
+  })();
+*/
+
+//
 function date(){
   let d = new Date();
   let time = d.getHours();
