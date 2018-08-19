@@ -5,5 +5,5 @@ var time = d.getHours()
 
 if (time > 10)
 {
- document.body.style.background = "red";
+alert("Hey Listen");
 }
