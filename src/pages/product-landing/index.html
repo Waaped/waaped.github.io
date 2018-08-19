@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head onload="startTime()" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./script.js">
+    </script>
     <link rel="shortcut icon" href="./assets/images/sombrero_doge.ico" />
      <link rel="stylesheet" href="styles/style.css">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
@@ -9,7 +11,7 @@
     <title>Rafael's Sombrero Shop</title>
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   </head>
-  <body>
+  <body onload="startTime()">
     <div class="bg">
     <header id="header">
       <nav id="nav-bar">
@@ -17,6 +19,7 @@
           <a class="nav-link" href="#">Other Hat Shops</a>
           <a class="nav-link"  href="#">Fake News</a>
       </nav>
+      <div id="txt"></div>
       <div class="image-txt-container">
       <img src="./assets/images/header_sombrero.png" id="header-img"><div class="center">
         <h2 id="h2-font">Rafa's Capas<h2></div>
