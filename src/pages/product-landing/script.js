@@ -6,7 +6,7 @@ function date(){
 
   if (time < 10)
   {
-  alert("Hey Listen");
+  alert("Night mode");
   document.body.style.backgroundColor = "brown";
 }
 }
