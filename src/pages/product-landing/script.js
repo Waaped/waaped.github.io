@@ -14,3 +14,12 @@ function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 }
+
+
+
+
+var el = document.getElementById('txt');
+
+if  (el >= 18) {
+       document.getElementByClass("bg").style.backgroundColor = "black";
+   }
