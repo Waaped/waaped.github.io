@@ -45,7 +45,7 @@ footer {
 }
 
 #nav-bar {
-  padding-left: 35%;
+
   display: flex;
   background-color: black;
 }
@@ -80,18 +80,27 @@ body {
 
 body, html {
     height: 100%;
-    font-family: 'Kalam', cursive;
+    font-family: 'Verdana';
 }
 
-
-.Center {
-
+.nav-link {
+  padding-top:2%;
+  margin-left:10%;
+  margin-bottom:2%;
+  font-size: 90%;
+  color:white;
+  font-weight: lighter;
 }
+
 .flex-box {
   flex-direction: row;
   margin-right: 2%;
+  color:white;
 }
 
+.container-f {
+  margin-top:2%;
+}
 .container {
 display: flex;
 margin-left: 40%;

@@ -35,7 +35,7 @@ let combo = time+":"+time1+":"+time2;
 console.log(combo);
 
   if (time > 10){
-  document.body.style.backgroundColor = "brown";
+  document.body.style.background = "linear-gradient(black, #102b40)";
   }
 else {
   document.body.style.background = "linear-gradient(#e66465, #9198e5)"
