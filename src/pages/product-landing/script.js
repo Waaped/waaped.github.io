@@ -5,7 +5,7 @@
 
 /*
 
-Seems like a good option, other frameworks prolly have a solution, but lol 
+Seems like a good option, other frameworks prolly have a solution, but lol
 
 <script type="text/javascript" src="http://www.datejs.com/build/date.js"></script>
 
@@ -15,7 +15,7 @@ Seems like a good option, other frameworks prolly have a solution, but lol
   })();
 */
 
-//
+// Tiem!
 function date(){
   let d = new Date();
   let time = d.getHours();
