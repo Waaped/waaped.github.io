@@ -9,3 +9,5 @@ function myFunction() {
 function nightMode(){
    document.body.style.background = "red";
 }
+
+  alert('Kept you waiting huh?');
