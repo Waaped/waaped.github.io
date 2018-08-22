@@ -12,20 +12,45 @@ html * {
 }
 
 
+
+h1 {
+  text-align: center;
+}
+
 nav {
  background-color: black;
+ text-align: center;
 
+}
 
+.sect {
+  margin-top: 2%;
+  background-color: black;
+  padding-bottom: 23%;
+}
+
+p {
+  font-size: 1em;
+}
+
+.container {
+margin-top:6%;
+margin-left:6%;
+margin-right:6%;
+}
+a {
+
+  margin-left: 3%;
 }
 
 footer {
 
-  background-position: center;
   background-color: black;
   height: 5%;
   left: 0;
   position: fixed;
   bottom: 0;
+  padding-top:1%;
   padding-bottom: 1%;
   width: 100%;
   color: white;
@@ -55,20 +80,14 @@ footer {
     .container {
       display:none;
     }
+    .sect {
+      display: none;
+    }
     #fig{
       display: none;
     }
 
 }
-
-
-.container:after {
-    padding-top: 15%;
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
 
 body {
@@ -88,6 +107,10 @@ a {
 
   }
 
+h1 {
+  margin-top: 2%;
+  font-weight: lighter;
+}
 
 
 
