@@ -14,21 +14,29 @@ html * {
 
 nav {
  background-color: black;
+
+
 }
 
 footer {
-  background-image: url('./assets/images/kelly_services.png');
+
   background-position: center;
   background-color: black;
-  background-repeat: no-repeat;
-  height: 10%;
+  height: 5%;
+  left: 0;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 1%;
+  width: 100%;
+  color: white;
+  text-align: center;
+
 }
 
 .buttons {
-  background-color: black;
+  background-color: red;
   border: solid black;
   float:right;
-
   flex-direction: column;
 }
 /*span.ex1 {
@@ -41,13 +49,16 @@ footer {
       float: none;
       }
       */
-
+      .buttons {
+        display:none;
+      }
     .container {
       display:none;
     }
     #fig{
       display: none;
     }
+
 }
 
 
@@ -58,36 +69,17 @@ footer {
     clear: both;
 }
 
-.col-1 {
-  margin-top: 20%;
-  float: left;
-  margin-left: 6.33%;
-  width: 23.33%;
-  border-bottom-style: outset;
-  border-bottom-color:black;
 
-}
-
-.col-1:hover {
-    background-color: black;
-}
-
-.png {
-  cursor: url('assets/images/navi.png'), auto;
-}
 
 body {
-  background: linear-gradient(135deg, lightblue, lightgreen 60%, cyan);
-
-
 
 /*html has default margins */
   margin:0;
+
+  background-color:#041120;
 }
 
 
-
-  }
 /*removes blue color from links, and underline */
 a {
 
@@ -96,24 +88,14 @@ a {
 
   }
 
-#fig
-{ float:none;
-  margin-left: 3%;
-  margin-top: 3%;
- }
 
 
-#para1{
-  opacity: 0.5;
-  margin-right: 23%;
-  padding-left:2%;
-  margin-left: 23%;
-  background-color:black;
 
-}
 #raf {
+      margin-top: 5%;
+      margin-left: 35%;
       border-radius:50%;
-      width:20%;
+      width:30%;
       height:30%;
       opacity: 0.5;
 }
