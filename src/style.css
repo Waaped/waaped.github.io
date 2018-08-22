@@ -23,6 +23,15 @@ h1 {
   font-size: 2em;
 }
 
+video {
+  min-width:100%;
+  min-height:100%;
+  width:auto;
+  height: auto;
+  background: url('./src/assets/video/space_mov.mov');
+  background-size: cover;
+}
+
 nav {
  background-color: black;
  text-align: center;
