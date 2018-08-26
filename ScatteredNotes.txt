@@ -165,3 +165,12 @@ https://benbernardblog.com/web-scraping-and-crawling-are-perfectly-legal-right/
 #Basically keep your head low, pockets tight, and monetization off
 
 https://blog.hartleybrody.com/web-scraping/
+
+## It does not matter if a code is copied so long as it is credited and you know what it does and learned from said copying
+-some guy at a meetup
+
+https://stackoverflow.com/questions/20437880/can-i-hide-the-embedded-video-on-my-website-after-an-amount-of-time?lq=1
+
+#setTimeout
+
+https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout

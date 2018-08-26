@@ -17,3 +17,7 @@ function nightMode(){
            function hideDiv() {
                document.getElementById("vid").style.display="none";
            }
+  setTimeout(delayOpacity,10000);
+          function delayOpacity() {
+            document.getElementById("vid").Style.display="";
+          }
