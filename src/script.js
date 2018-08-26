@@ -19,5 +19,5 @@ function nightMode(){
            }
   setTimeout(delayOpacity,10000);
           function delayOpacity() {
-            document.getElementById("vid").Style.display="";
+            document.getElementById("vid").Style.opacity="0.5";
           }
