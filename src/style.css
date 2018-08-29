@@ -33,6 +33,7 @@ video {
 }
 
 nav {
+  padding-left: 10%;
  background-color: black;
  text-align: center;
  padding-top:.5%;
