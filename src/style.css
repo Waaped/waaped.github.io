@@ -102,19 +102,18 @@ footer {
       display: none;
     }
     #fig{
-      margin-top: 10%;
+      display: none;
     }
 
     #raf {
 
           width:30%;
-          height:40%;
+          height:30%;
 
     }
     video {
       display: none;
     }
-
 
 }
 
