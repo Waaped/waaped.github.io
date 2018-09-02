@@ -4,9 +4,9 @@ body{
   padding-left:3%;
   padding-right:3%;
   padding-bottom: 3%;
-  background-color: rgba(37, 74, 157, 0.69);
-
-html * {
+  background-color: rgb(15, 22, 21);
+}
+html{
   color: white;
 }
 
