@@ -1,72 +1,40 @@
-body {
-  background-color:brown;
+body{
+  border: 20px solid #bdc3c7;
+  margin: 5% 10% 5% 10%;
+  padding-left:3%;
+  padding-right:3%;
+  padding-bottom: 3%;
+  background-color: rgba(37, 74, 157, 0.69);
+
+html * {
+  color: white;
 }
 
 
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+h1 {
+  padding-top: .5%;
+  font-family: Raleway;
+  font-size: 140%;
+  color: #2c3e50
 }
 
-/*
-  hides the menu that shows up on the screen when clicking on the hamburger menu.
-  Styles for the menu to make it look nice.
+p{
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 1%;
+}
+
+h5{
+  color: #3498db;
+  font-size: 65%;
+  text-transform: uppercase;
+}
+
+/* got in the shower, had a revelation that divs existed, and i didn't need to create a new paragraph and target it with ID, as its just plain bad practice, now appreciate divs more.
+I used a border bottom, instead of using an HR, i found out <hr>s are just lines that are customizable so far... earlier in 2018
+I have also found there are multiple ways of building this not, just this way, there are no correct ways just different methods. For now i will try and do things more per instructor.
 */
 
-.responsive-nav {
-  position: fixed;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0,0,0,0.6);
-  transform: translateX(100%);
-  transition: transform 0.5s ease;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
- /* styles to make the responsive menu look better   */
-
-.responsive-nav ul {
-  list-style-type: none;
-}
-
-.responsive-nav ul li a {
-  color: #fff;
-  font-size: 21px;
-  letter-spacing: 1px;
-}
-
-.responsive-nav__open {
-  transform: translateX(0)
-}
-
-/* give the hamburger menu styles  */
-
-#menu-hamburger {
-  cursor: pointer;
-  z-index: 2;
-}
-
-/*  css to animate the responsive hamburger menu */
-
-#menu-hamburger rect {
-  transition: all 0.5s;
-}
-
-.animate .hamburger-menu__rect1 {
-  transform: rotate(35deg) translate(2px, -2px);
-}
-
-.animate .hamburger-menu__rect3 {
-  transform: rotate(-35deg) translate(-7px, -2px);
-}
-
-.animate .hamburger-menu__rect2 {
-  opacity: 0;
+div{
+  border-left: 5px solid #bdc3c7;
+  padding-left: 2px;
 }
