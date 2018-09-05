@@ -23,6 +23,8 @@ they say Programming is like hitting your head against a wall..
 But your Head gets stronger, and the wall gets
 weaker.
 
+https://codepen.io/tonynassif/pen/LWPmPP
+
 
 ## 8pm in Vons
 
