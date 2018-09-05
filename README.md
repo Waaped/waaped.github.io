@@ -18,10 +18,10 @@ Right-click
 
 ##Programming Poetry simp
 
-they say Programming is like hitting your head against a wall
+they say Programming is like hitting your head against a wall..
 
 But your Head gets stronger, and the wall get's
-weaker
+weaker.
 
 
 ## 8pm in Vons
