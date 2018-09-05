@@ -20,7 +20,7 @@ Right-click
 
 they say Programming is like hitting your head against a wall..
 
-But your Head gets stronger, and the wall get's
+But your Head gets stronger, and the wall gets
 weaker.
 
 
