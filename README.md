@@ -31,3 +31,7 @@ https://codepen.io/tonynassif/pen/LWPmPP
 ## 8pm in Vons
 
 A book is like a garden carried in the pocket.
+
+## Rafael Was a young Speilberg
+
+https://www.youtube.com/watch?v=BWiUXcuXaWo&t=178s
