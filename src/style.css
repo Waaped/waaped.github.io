@@ -6,17 +6,10 @@ html * {
 /*   font-size: .97em; *
   don't like how this turned out, leaving empty until further research,
   maybe not so global, and media query after this rest./
-
-
 */
 }
 
-p {
-  margin-left: 6%;
-  margin-right:6%;
-  font-size:1em;
 
-}
 
 h1 {
 
@@ -42,6 +35,8 @@ nav {
 
 .sect {
   margin-top: 2%;
+  margin-left:2%;
+  margin-right:2%;
   padding-top:2%;
   padding-bottom: 2%;
   padding-left:5%;
