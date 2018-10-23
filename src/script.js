@@ -16,7 +16,7 @@ if(is_safari) {
        video.play();
     }, 50);
 }
- //via Stak overflow, Dirty Safari work around,  'is ok to mickey mouse sometimes-honda awesome slav guy'
+ //via Stak overflow, Dirty Safari work around,  'is ok to mickey mouse sometimes-honda awesome slavic guy'
 
 function nightMode(){
    document.body.style.background = "red";
