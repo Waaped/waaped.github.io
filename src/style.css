@@ -16,12 +16,12 @@ h1 {
   font-size: 2em;
 }
 
-video {
+video#vid{
   min-width:100%;
   min-height:100%;
   width:auto;
   height: auto;
-  background: url('./src/assets/video/space_mov.mov');
+  background: url('./src/assets/video/space_mov.mov') no-repeat;
   background-size: cover;
 }
 

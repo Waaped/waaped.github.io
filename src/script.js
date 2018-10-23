@@ -3,6 +3,18 @@ function myFunction() {
     document.getElementById("raf").style.opacity = "1";
 }
 
+
+
+function NetworkDetect() {
+
+  NetworkInformation = navigator.connection
+
+  if (NetworkInformation.type == cellular) {
+    document.getElementById('vid').style.display="none";
+    console.log('Debug');
+  }
+}
+
 function loopedInput(bacon){
   if (bacon = 'hello World'){
   }
@@ -19,7 +31,7 @@ if(is_safari) {
  //via Stak overflow, Dirty Safari work around,  'is ok to mickey mouse sometimes-honda awesome slavic guy'
 
 function nightMode(){
-   document.body.style.background = "red";
+   document.body.style.background = "#fff";
 }
 
   alert('Kept you waiting huh?, Page under Construction');
