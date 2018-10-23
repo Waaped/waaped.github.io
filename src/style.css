@@ -145,13 +145,18 @@ h1 {
 
 }
 
+.containerF {
+  display:flex;
+  border;
+}
+
 box {
   font-family: monospace;
 }
 
-.box1 {background-color: white;}
-.box2 {background-color: white;}
-.box3 {background-color:12 white;}
+.box1 {background-color: red;}
+.box2 {background-color: black;}
+.box3 {background-color: yellow;}
 .box4 {background-color: white;}
 
 
