@@ -3,7 +3,20 @@ function myFunction() {
     document.getElementById("raf").style.opacity = "1";
 }
 
+function loopedInput(bacon){
+  if (bacon = 'hello World'){
+  }
+}
 
+var ua = navigator.userAgent.toLowerCase();
+var is_safari = (ua.indexOf("safari/") > -1 && ua.indexOf("chrome") < 0);
+if(is_safari) {
+    var video = document.getElementById('#vid');
+    setTimeout(function() {
+       video.play();
+    }, 50);
+}
+ //via Stak overflow, Dirty Safari work around,  'is ok to mickey mouse sometimes-honda awesome slav guy'
 
 function nightMode(){
    document.body.style.background = "red";
