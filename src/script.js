@@ -3,10 +3,10 @@ function myFunction() {
     document.getElementById("raf").style.opacity = "1";
 }
 
-function loopedInput(bacon){
-  if (bacon = 'hello World'){
-  }
-}
+// function loopedInput(bacon){
+//   if (bacon = 'hello World'){
+//   }
+// }
 
 var ua = navigator.userAgent.toLowerCase();
 var is_safari = (ua.indexOf("safari/") > -1 && ua.indexOf("chrome") < 0);
