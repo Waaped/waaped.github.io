@@ -5,15 +5,13 @@ function myFunction() {
 
 
 
-function NetworkDetect() {
-
-  NetworkInformation = navigator.connection
-
-  if (NetworkInformation.type == cellular) {
-    document.getElementById('vid').style.display="none";
-    console.log('Debug');
-  }
-}
+// function NetworkDetect() {
+//   NetworkInformation = navigator.connection
+//   if (NetworkInformation.type == 'cellular') {
+//     document.getElementById('vid').style.display="none";
+//     console.log('Debug');
+//   }
+// }
 
 function loopedInput(bacon){
   if (bacon = 'hello World'){
