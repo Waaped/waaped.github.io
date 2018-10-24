@@ -61,15 +61,11 @@ a {
 footer {
 
   background-color: black;
-  height: 5%;
+  height: auto;
   left: 0;
-  position: fixed;
   bottom: 0;
   padding-top:1%;
-  padding-bottom: 1%;
-  width: 100%;
-  color: white;
-  text-align: center;
+  padding-bottom: 1;
 
 }
 
