@@ -24,6 +24,7 @@ video#vid{
   height: auto;
   background: url('./src/assets/video/space_mov.mov') no-repeat;
   background-size: cover;
+
 }
 
 nav {
@@ -145,19 +146,42 @@ h1 {
 
 }
 
-.containerF {
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+
+
+}
+
+.containerf {
   display:flex;
-  border;
+  flex-direction: row;
+  flex-wrap:wrap;
 }
 
 box {
   font-family: monospace;
+
+
 }
 
-.box1 {background-color: red;}
-.box2 {background-color: black;}
-.box3 {background-color: yellow;}
-.box4 {background-color: white;}
+.box1 {
+  background-color: red;
+  width: 100px;
+}
+
+.box2 {
+  background-color: black;
+  width:100px;
+}
+.box3 {
+  background-color: brown;
+  width:100px;
+}
+
 
 
 #raf {
