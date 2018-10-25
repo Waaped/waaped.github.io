@@ -90,10 +90,10 @@ footer {
         display:none;
       }
     .container {
-      display:none;
+    margin-top: 10%;
     }
     .sect {
-      display: none;
+
     }
     #fig{
       display: none;
@@ -164,7 +164,7 @@ footer {
   font-family: monospace;
   margin-top:1%;
   margin-left: 15%;
-  
+
 
 
 }
