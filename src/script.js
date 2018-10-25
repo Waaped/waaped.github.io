@@ -5,6 +5,16 @@ function myFunction() {
 
 
 
+
+let preloadVideo = true;
+var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+if (connection) {
+  if (connection.type === 'cellular') {
+    preloadVideo = false;
+  }
+}
+
+
 // function NetworkDetect() {
 //   NetworkInformation = navigator.connection
 //   if (NetworkInformation.type == 'cellular') {
