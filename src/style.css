@@ -108,6 +108,22 @@ footer {
 
 }
 
+/*
+
+media query for adding and deleting text based on media query
+
+@media (min-width: 641px) {
+    span.icon {display:none}
+    span.text {display:inline-block}
+}
+
+@media (max-width: 640px) {
+    span.icon {display:inline-block}
+    span.text {display:none}
+}
+
+
+*/
 
 
 
@@ -170,6 +186,7 @@ footer {
 }
 
 .box1 {
+  margin-bottom: 3%;
 }
 
 .box2 {

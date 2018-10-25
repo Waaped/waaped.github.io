@@ -28,8 +28,8 @@ if(is_safari) {
 }
  //via Stak overflow, Dirty Safari work around,  'is ok to mickey mouse sometimes-honda awesome slavic guy'
 
-function nightMode(){
-   document.body.style.background = "#fff";
+function dayMode(){
+   //day vid
 }
 
   alert('Kept you waiting huh?, Page under Construction');
