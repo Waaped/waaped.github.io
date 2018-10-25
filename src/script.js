@@ -13,10 +13,10 @@ function myFunction() {
 //   }
 // }
 
-function loopedInput(bacon){
-  if (bacon = 'hello World'){
-  }
-}
+// function loopedInput(bacon){
+//  if (bacon = 'hello World'){
+  // }
+// }
 
 let ua = navigator.userAgent.toLowerCase();
 let is_safari = (ua.indexOf("safari/") > -1 && ua.indexOf("chrome") < 0);
