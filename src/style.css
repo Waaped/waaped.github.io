@@ -86,7 +86,7 @@ footer {
       float: none;
       }
       */
-      .buttons {
+    .buttons {
         display:none;
       }
     .container {
@@ -103,6 +103,7 @@ footer {
           width:30%;
           height:30%;
     }
+
 
 
 }
@@ -149,33 +150,31 @@ footer {
     bottom: 0;
     width: 100%;
     background-color:black;
-    font-size: 1em;
+
 
 }
 
 .containerf {
   display:flex;
-  flex-direction: row;
   flex-wrap:wrap;
-  margin-left: 13%;
-  margin-right:13%;
+  font-size: 1em;
 }
 
 .box {
   font-family: monospace;
-  width:33%;
+  margin-top:1%;
+  margin-left: 15%;
+  
+
 
 }
 
 .box1 {
-  background-color: red;
 }
 
 .box2 {
-  background-color: black;
 }
 .box3 {
-  background-color: brown;
 
 }
 

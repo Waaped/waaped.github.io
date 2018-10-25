@@ -33,4 +33,3 @@ let combo = time+":"+time1+":"+time2;
 
 
 console.log(combo);
-ß
