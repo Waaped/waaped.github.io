@@ -76,7 +76,24 @@
 	}
 }
 
+#header-img {
+  display: none;
+}
 
+#header {
+  position: fixed;
+  width: 100%;
+}
+video {
+  display:none;
+}
+
+#submit {
+  background-color: rgb(52, 142, 193);
+  height: 2rem;
+  color:white;
+
+}
     </style>
 
     <title>Raf Auto Repair</title>
@@ -87,29 +104,36 @@
 
     <nav style="background:rgba(241, 59, 19, 0.77);" id="nav-bar" class="navbar navbar-dark">
         <div class="container">
-
-            <a href="http://rafaelvasquez.life/" class="navbar-brand"><i class="fab fa-instagram"></i> @rafa_ii</a>
+          <img id="header-img" src="imgs/r-logo.gif">
+            <a href="#contact" class="nav-link navbar-brand"><i class="fab fa-instagram"></i> @rafa_ii</a>
+              <a href="#vid" href="http://facebook.com/" class="nav-link navbar-brand"><i class="fab fa-facebook"></i>ZuckerBook</a>
+              <a href="#services" href="http://facebook.com/" class="nav-link navbar-brand"><i class="fab fa-twitter"></i>Trump Messenger Raven</a>
+              <form id="form" action="https://www.freecodecamp.com/email-submit">
+                  <input style="margin-right:1rem;"name="email" id="email" type="email" placeholder="Enter your email address" required/>
+                  <input id="submit" type="submit" value="Enter Email" class="btn"></input>
+              </form>
         </div>
     </nav>
     </header>
 
-    <section  class=" pb-3 mb-3 text-center">
-        <img src="imgs/GomezMotors.png" class="img-fluid" alt="Responsive image">
+    <section id="contact" class=" pb-3 mb-3 text-center">
+        <img style="margin-top:4%" src="imgs/GomezMotors.png" class="img-fluid" alt="Responsive image">
         <p class="lead text-light"></p>
         <a href="" class="btn btn-primary">Contact</a>
         <a href="" class="btn btn-danger">Reviews</a>
     </section>
 
-<section class="container" style="margin-bottom:2%;">
-  <div> <a href="" class="btn btn-dark">Sample Product</a></div>
+<section id="vid" class="container" style="margin-bottom:1%;">
+  <div> <a href="sample" class="btn btn-dark">Sample Product</a></div>
 <div class="embed-responsive embed-responsive-16by9 ">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DyYKuOtiBrk" allowfullscreen></iframe>
+  <video id="video" src="https://www.youtube.com/embed/DyYKuOtiBrk"></video>
+  <iframe    class="embed-responsive-item" src="https://www.youtube.com/embed/DyYKuOtiBrk" allowfullscreen></iframe>
 </div>
 </section>
 
 
 
-       <section class="container">
+       <section id="services" class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="card border-dark">
