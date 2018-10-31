@@ -9,7 +9,7 @@
 
     #navbar {
    height: 100%;
-   width: 12%;
+   width: 10rem;
    position: fixed;
    z-index: 1;
    top: 0;
@@ -20,7 +20,7 @@
     }
 
     main {
-      margin-left: 15%;
+      margin-left: 11rem;
       font-size: 1em; /* Increased text to enable scrolling */
 
   }
@@ -31,7 +31,12 @@
     font-size:2rem;
   }
 
-@media only screen and (max-width: 1200px) {
+  #boss{
+
+    color:brown;
+  }
+
+@media only screen and (max-width: 700px) {
 
     #navbar{
       width: 100%;
@@ -53,7 +58,7 @@
 <main id="main-doc">
 <nav id="navbar">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <header>JS Documentation</header>
+  <header id="boss">JS Documentation</header>
   <ul>
     <a class="nav-link" href="#Introduction" rel="internal"><li>Introduction</li></a>
     <a class="nav-link" href="#What_you_should_already_know" rel="internal"><li>What you should already know</li></a>
