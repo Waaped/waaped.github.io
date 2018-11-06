@@ -46,7 +46,7 @@ footer {
 }
 
 #nav-bar {
-
+  z-index: 0;
   display: flex;
   background-color: black;
 }
