@@ -42,8 +42,6 @@ function dayMode(){
    //day vid
 }
 
-  alert('Kept you waiting huh?, Page under Construction');
-
 
   //setTimeout(hideDiv, 30000); //Instead of 10000 put your video's length, in milliseconds BASED STACK OVERLOW
       //     function hideDiv() {
@@ -59,7 +57,3 @@ function dayMode(){
             document.getElementById("vid").style.opacity="0.9";
           }
 
-
-  function loopacity() {
-
-  }
