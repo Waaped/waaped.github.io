@@ -29,6 +29,8 @@ png is the safest bet, as svg, gif and other similar formats did not function in
 
 It might be a bit antiquated, but custom cursor could come in handy.
 
+
+
 The next step would likely to build a animated Cursor using Javascript.
 
 ## em conclusion sort of..
@@ -174,3 +176,5 @@ https://stackoverflow.com/questions/20437880/can-i-hide-the-embedded-video-on-my
 #setTimeout
 
 https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
+
+https://www.youtube.com/watch?v=IzajV-gi0mQ
