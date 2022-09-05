@@ -1,7 +1,6 @@
 html * {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 90%;
   text-decoration: none;
 
 /*   font-size: .97em; *
@@ -17,7 +16,7 @@ h1 {
   font-size: 2em;
 }
 
-video#vid{
+/* video#vid{
   min-width:100%;
   min-height:100%;
   width:auto;
@@ -25,7 +24,7 @@ video#vid{
   background: url('./src/assets/video/space_mov.mov') no-repeat;
   background-size: cover;
 
-}
+} */
 
 nav {
   padding-left: 10%;
@@ -93,7 +92,7 @@ footer {
     margin-top: 10%;
     }
     .sect {
-      font-size: 3em;
+      font-size: 1rem;
 
     }
     #fig{
@@ -209,5 +208,5 @@ footer {
       border-radius:50%;
       width:15%;
       height:25%;
-      opacity: 0.5;
+
 }
