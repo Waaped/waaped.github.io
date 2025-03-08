@@ -3,7 +3,7 @@ html * {
   color: white;
   text-decoration: none;
 
-/*   font-size: .97em; *
+  /*   font-size: .97em; *
   don't like how this turned out, leaving empty until further research,
   maybe not so global, and media query after this rest./
 */
@@ -28,32 +28,33 @@ h1 {
 
 nav {
   padding-left: 10%;
- background-color: black;
- text-align: center;
- padding-top:.5%;
- padding-bottom:.5%;
+  background-color: black;
+  text-align: center;
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
 
 .sect {
-  margin-top: 2%;
-  margin-left:10%;
-  margin-right:10%;
-  padding-top:2%;
-  padding-bottom: 2%;
-  padding-left:5%;
-  padding-right:5%;
-  background-color: black;
+  margin: 2% 10% 2% 10%;
+  padding: 2% 4% 2% 4%;
+  background-color: rgb(95, 158, 160, .40);
+  border-radius: 10%;
+  border: 5px dashed rgb(201, 224, 242);
 }
 
+h1::first-letter {
+  font-size: 2em;
+}
 
 .container {
   text-align: center;
-  margin-top:2%;
-  margin-left:6%;
-  margin-right:6%;
+  margin-top: 2%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
+
 a {
- margin-right: 10%;
+  margin-right: 10%;
 
 }
 
@@ -63,46 +64,51 @@ footer {
   height: auto;
   left: 0;
   bottom: 0;
-  padding-top:1%;
+  padding-top: 1%;
   padding-bottom: 1;
-  font-size:1em;
+  font-size: 1em;
 
 }
 
 .buttons {
   background-color: red;
   border: solid black;
-  float:right;
+  float: right;
   flex-direction: column;
 }
+
 /*span.ex1 {
     min-width: 500px;
 }
 */
 @media only screen and (max-width: 700px) {
-    /*
+
+  /*
     .col-1 {
       float: none;
       }
       */
-    .buttons {
-        display:none;
-      }
-    .container {
+  .buttons {
+    display: none;
+  }
+
+  .container {
     margin-top: 10%;
-    }
-    .sect {
-      font-size: 1rem;
+  }
 
-    }
-    #fig{
-      display: none;
-    }
+  .sect {
+    font-size: 1rem;
 
-    #raf {
-          width:30%;
-          height:30%;
-    }
+  }
+
+  #fig {
+    display: none;
+  }
+
+  #raf {
+    width: 30%;
+    height: 30%;
+  }
 
 
 
@@ -130,10 +136,10 @@ media query for adding and deleting text based on media query
 
 body {
 
-/*html has default margins */
-  margin:0;
+  /*html has default margins */
+  margin: 0;
 
-  background-color:#041120;
+  background-color: #041120;
 }
 
 
@@ -145,7 +151,7 @@ a {
   color: inherit;
   text-decoration: none;
 
-  }
+}
 
 h1 {
   margin-top: 2%;
@@ -161,24 +167,24 @@ h1 {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
 
 
 }
 
 .containerf {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 1em;
 }
 
 .box {
   font-family: monospace;
-  margin-top:1%;
+  margin-top: 1%;
   margin-left: 17%;
 
 
@@ -187,26 +193,27 @@ footer {
 
 .box1 {
   margin-bottom: 3%;
-  margin-right:3%;
+  margin-right: 3%;
 }
 
 .box2 {
-  margin-right:3%;
+  margin-right: 3%;
 }
+
 .box3 {
- margin-right:3%;
+  margin-right: 3%;
 
 }
 
 
 
 #raf {
-      display: block;
-      margin-top:3%;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius:50%;
-      width:15%;
-      height:25%;
+  display: block;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 15%;
+  height: 25%;
 
 }
