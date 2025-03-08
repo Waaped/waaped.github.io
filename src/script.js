@@ -1,10 +1,10 @@
-function myFunction() {
+/* function myFunction() {
     document.getElementById("raf").src = "./src/assets/images/rafael.PNG";
     document.getElementById("raf").style.opacity = "1";
 }
 
 
-
+*/
 
 let preloadVideo = true;
 var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
