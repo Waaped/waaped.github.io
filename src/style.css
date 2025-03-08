@@ -28,7 +28,7 @@ h1 {
 
 nav {
   padding-left: 10%;
-  background-color: black;
+  background-color: coral;
   text-align: center;
   padding-top: .5%;
   padding-bottom: .5%;
@@ -60,22 +60,18 @@ a {
 
 footer {
 
-  background-color: black;
+  background-color: coral;
   height: auto;
   left: 0;
   bottom: 0;
   padding-top: 1%;
   padding-bottom: 1;
   font-size: 1em;
+  ;
 
 }
 
-.buttons {
-  background-color: red;
-  border: solid black;
-  float: right;
-  flex-direction: column;
-}
+
 
 /*span.ex1 {
     min-width: 500px;
@@ -166,20 +162,13 @@ h1 {
 
 }
 
-footer {
 
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-
-
-}
 
 .containerf {
   display: flex;
   flex-wrap: wrap;
   font-size: 1em;
+  background-color: rgb(250, 124, 57);
 }
 
 .box {
