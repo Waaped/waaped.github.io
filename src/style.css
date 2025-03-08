@@ -139,7 +139,7 @@ body {
   /*html has default margins */
   margin: 0;
 
-  background-color: #041120;
+  background-color: #156a7f;
 }
 
 
@@ -167,7 +167,7 @@ h1 {
 }
 
 footer {
-  position: fixed;
+
   left: 0;
   bottom: 0;
   width: 100%;
