@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+}
+
+section {
+    width: 80%;
+    height: 900px;
+    background: no-repeat center url(".//alfred-lutz-3Cb3t7E79s4-unsplash.jpg");
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+}
+
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 300;
+    font-style: normal;
+}
